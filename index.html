@@ -508,229 +508,92 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <a href="/" class="nav-logo">방화노래방<span class="text-accent">.</span></a>
-            <button class="hamburger" aria-label="메뉴 열기" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('open');">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#info">정보</a></li>
-                <li><a href="#reviews">리뷰</a></li>
-                <li><a href="#features">특징</a></li>
-                <li><a href="#contact">예약</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <main>
-        <section class="hero" id="home">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1>방화 노래방 <span class="accent">내돈내산</span><br>검증된 최고의 선택</h1>
-                        <p>방화동에서 가장 신뢰할 수 있는 노래방 정보를 제공합니다. 직접 방문하고 경험한 데이터를 기반으로 시설, 가격, 서비스를 상세하게 분석했습니다. 합리적인 선택을 위한 모든 정보를 확인하세요.</p>
-                        <a href="tel:010-6279-0862" class="hero-cta">전화 예약 010-6279-0862</a>
-                    </div>
-                    <div class="hero-visual" aria-hidden="true">
-                        <svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                            <rect x="0" y="60" width="200" height="20" fill="#2d2a26" />
-                            <rect x="20" y="40" width="30" height="40" fill="#e07a5f" opacity="0.2" />
-                            <rect x="70" y="30" width="30" height="50" fill="#2d2a26" opacity="0.2" />
-                            <rect x="120" y="45" width="30" height="35" fill="#e07a5f" opacity="0.3" />
-                            <rect x="170" y="35" width="30" height="45" fill="#2d2a26" opacity="0.15" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="info">
-            <div class="container">
-                <h2 class="section-title">방화 노래방 <span>완전 분석</span></h2>
-                <div class="info-grid">
-                    <div class="info-card">
-                        <span class="icon">📍</span>
-                        <h3>방화동 최적 입지</h3>
-                        <p>방화동 중심 상권에 위치하여 접근성이 뛰어납니다. 대중교통 및 주차 시설이 완비되어 있어 방문이 편리합니다. 인근 상업시설과의 연계로 다양한 즐길 거리를 제공합니다.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="icon">🎵</span>
-                        <h3>최신 음향 시스템</h3>
-                        <p>전문가 수준의 음향 장비와 최신 곡 데이터베이스를 갖추고 있습니다. 정기적인 장비 점검과 업데이트를 통해 항상 최상의 음질을 유지합니다.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="icon">💰</span>
-                        <h3>투명한 가격 정책</h3>
-                        <p>내돈내산 검증 결과, 추가 요금이나 숨은 비용 없이 합리적인 가격대를 형성하고 있습니다. 시간대별 할인 및 패키지 상품도 운영 중입니다.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="icon">🧼</span>
-                        <h3>청결 유지 관리</h3>
-                        <p>매일 정기적인 방역과 청소를 통해 쾌적한 환경을 유지합니다. 객실 내 환기 시스템과 공기청정기가 설치되어 있어 위생적으로 이용 가능합니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section id="reviews">
-            <div class="container">
-                <h2 class="section-title">실제 방문자 <span>내돈내산 리뷰</span></h2>
-                <div class="review-grid">
-                    <article class="review-card">
-                        <div class="review-stars">★★★★★</div>
-                        <blockquote>시설이 정말 깔끔하고 음향 시스템이 최고입니다. 방화에서 가장 추천하는 노래방입니다. 친구들과 방문했는데 모두 만족했습니다.</blockquote>
-                        <div class="review-meta">
-                            <span class="review-author">김서울</span>
-                            <time class="review-date" datetime="2024-12-15">2024.12.15</time>
-                        </div>
-                    </article>
-                    <article class="review-card">
-                        <div class="review-stars">★★★★★</div>
-                        <blockquote>가격 대비 훌륭한 서비스와 청결한 환경. 친구들과 자주 방문합니다. 곡 선택도 다양하고 음질도 좋아서 매번 만족스러워요.</blockquote>
-                        <div class="review-meta">
-                            <span class="review-author">이방화</span>
-                            <time class="review-date" datetime="2024-11-28">2024.11.28</time>
-                        </div>
-                    </article>
-                    <article class="review-card">
-                        <div class="review-stars">★★★★½</div>
-                        <blockquote>직장 동료들과 회식 후 방문했는데 분위기가 좋았습니다. 시스템도 잘 갖춰져 있고, 직원분들도 친절하세요. 다음에 또 방문할 의향 있습니다.</blockquote>
-                        <div class="review-meta">
-                            <span class="review-author">박강서</span>
-                            <time class="review-date" datetime="2024-10-20">2024.10.20</time>
-                        </div>
-                    </article>
-                    <article class="review-card">
-                        <div class="review-stars">★★★★★</div>
-                        <blockquote>방화동 노래방 중에서 단연 최고입니다. 시설이 새것처럼 관리되고 있고, 음향도 너무 좋아요. 가성비도 훌륭합니다.</blockquote>
-                        <div class="review-meta">
-                            <span class="review-author">최방화</span>
-                            <time class="review-date" datetime="2024-09-05">2024.09.05</time>
-                        </div>
-                    </article>
-                    <article class="review-card">
-                        <div class="review-stars">★★★★★</div>
-                        <blockquote>주말에 가족과 함께 다녀왔습니다. 아이들을 위한 시설도 잘 되어 있고, 곡도 다양해서 모두가 즐거웠습니다. 추천합니다.</blockquote>
-                        <div class="review-meta">
-                            <span class="review-author">정서울</span>
-                            <time class="review-date" datetime="2024-08-12">2024.08.12</time>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section id="features">
-            <div class="container">
-                <h2 class="section-title">방화 노래방 <span>핵심 특징</span></h2>
-                <div class="feature-grid">
-                    <div class="feature-item">
-                        <span class="feature-icon">🎤</span>
-                        <div class="feature-text">
-                            <h4>전문가 검증 음향</h4>
-                            <p>방화 노래방의 음향 시스템은 전문가 수준의 튜닝을 거쳤습니다. 최신 디지털 믹서와 고급 스피커를 사용하여 최적의 사운드를 제공합니다.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">📱</span>
-                        <div class="feature-text">
-                            <h4>스마트 예약 시스템</h4>
-                            <p>전화 예약 시스템을 통해 간편하게 원하는
-
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-11">2026-06-11</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">방화 노래방 내돈내산 현장에서 놓치기 쉬운 포인트를 기록해봤다</h4>
-        <h3>포스트 DNA 1bd07a49 #### 제목: 창작한 제목"방화 노래방 내돈내산 실패 사례와 재발 방지 원칙" ## 포스트 메타정보포스트 기획 테마: 방화 노opy방 내돈내산 현장에서 놓치기 쉬운 포인트를 기록해봤다 백링크 지시: 본문 내러티브 속에서 다음 링크</h3>
-      </div>
-      <a href="posts/field_note-002-1hjtz4n.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">방화 노래방 내돈내산 현장에서 놓치기 쉬운 포인트를 기록해봤다</h4>
-        <h3>포스트 DNA f1dd3a5a #### 제목: 창작한 제목 ## 관찰 기록MK울트라는 CIA의 비밀 프로젝트였으며, 스노든은 NSA 내부고발자였다. 이 두 사실은 지식으로는 절대 불가능합니다. 그러나 MK울트라 프로젝트와 관련된 음모론 팩트체크를 진행하며, 보잉</h3>
-      </div>
-      <a href="posts/field_note-002-or8rr2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">아날로그 문화 컬렉터들이 선정한 화곡 셔츠룸 트렌드 정보 공유 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">아날로그 문화 컬렉터들이 선정한 화곡 셔츠룸 트렌드 정보 공유 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
+<main>
+<section class="hero">
+<div class="hero-content container">
+<div class="hero-text">
+<p class="accent">방화동 지역 정보</p>
+<h1>방화 노래방, 선택 전에 무엇을 확인해야 할까</h1>
+<p>방화동 인근 노래방을 처음 이용하시는 분들이 자주 묻는 질문을 모았습니다. 이 페이지는 개별 매장에 대한 평가가 아니라, 방화동에서 노래방을 이용할 때 공통적으로 알아두면 좋은 내용을 담았습니다. 매장을 고르기 전에 아래 질문과 체크포인트를 먼저 살펴보시기 바랍니다.</p>
+<a href="tel:010-6279-0862" class="hero-cta">전화 문의</a>
+</div>
+<div class="hero-visual"></div>
+</div>
 </section>
+
+<section class="container mt-48">
+<h2 class="section-title">자주 묻는 질문</h2>
+<div class="info-grid">
+<div class="info-card">
+<span class="icon">Q</span>
+<h3>룸 종류는 어떻게 구분되나요?</h3>
+<p>일반적으로 인원수와 룸 크기에 따라 소형·중형·대형으로 나뉘며, 업소마다 명칭과 기준이 다를 수 있어 예약 시 확인이 필요합니다.</p>
+</div>
+<div class="info-card">
+<span class="icon">Q</span>
+<h3>기본 이용 시간은 어떻게 되나요?</h3>
+<p>기본 시간은 보통 1시간 단위로 운영되며, 연장 여부와 단위 요금은 업소별로 상이하므로 방문 전 문의가 권장됩니다.</p>
+</div>
+<div class="info-card">
+<span class="icon">Q</span>
+<h3>예약이 꼭 필요한가요?</h3>
+<p>방화동은 공항철도·5호선 인근으로 저녁 시간대 이용객이 몰릴 수 있어, 주말이나 모임 인원이 많은 경우 사전 예약이 안전합니다.</p>
+</div>
+<div class="info-card">
+<span class="icon">Q</span>
+<h3>어떤 부분을 비교하면 좋을까요?</h3>
+<p>음향 시설, 룸 청결 상태, 최신곡 반영 여부, 그리고 기본 요금에 포함되는 서비스 범위를 함께 비교해 보는 것이 좋습니다.</p>
+</div>
+<div class="info-card">
+<span class="icon">Q</span>
+<h3>단체 모임도 가능한가요?</h3>
+<p>인원이 많은 모임은 대형 룸 보유 여부와 추가 인원 요금 기준을 먼저 확인한 뒤 예약하는 것이 안전합니다.</p>
+</div>
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">방화동 교통·접근성</h2>
+<div class="info-grid">
+<div class="info-card">
+<p>방화동은 공항철도와 5호선이 지나는 지역으로, 김포공항 방면 이동이 잦은 직장인과 여행객이 함께 이용하는 상권입니다.</p>
+</div>
+<div class="info-card">
+<p>버스 노선도 다양하게 지나는 편이라 대중교통 접근성은 양호하지만, 심야 시간대에는 배차 간격을 미리 확인하는 것이 좋습니다.</p>
+</div>
+</div>
+</section>
+
+<section class="container mb-48">
+<h2 class="section-title">예약 전 확인할 네 가지</h2>
+<div class="feature-grid">
+<div class="feature-item">
+<span class="feature-icon">1</span>
+<p class="feature-text">인원수에 맞는 룸 크기인지 확인</p>
+</div>
+<div class="feature-item">
+<span class="feature-icon">2</span>
+<p class="feature-text">기본 시간과 연장 요금 기준 확인</p>
+</div>
+<div class="feature-item">
+<span class="feature-icon">3</span>
+<p class="feature-text">음료·안주 별도 주문 가능 여부 확인</p>
+</div>
+<div class="feature-item">
+<span class="feature-icon">4</span>
+<p class="feature-text"><span class="text-accent">주차 및 대중교통 접근성</span> 확인</p>
+</div>
+</div>
+</section>
+
+<section class="cta-section container">
+<h2 class="section-title">노래방 문의 연락처</h2>
+<p>방화동 노래방 관련 문의는 아래 연락처로 가능합니다. 인원과 희망 시간대를 미리 말씀해 주시면 안내가 더 원활하며, 초행길이라면 인근 지하철역 출구 번호를 함께 여쭤보시는 것도 도움이 됩니다.</p>
+<a href="tel:010-6279-0862" class="cta-button">010-6279-0862</a>
+</section>
+</main>
+
+
 </body>
 </html>
